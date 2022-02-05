@@ -1,0 +1,88 @@
+body,html{width: auto;  height: 100%; padding: 0px; margin: 0px; }
+
+.entete{ display: flex; justify-content: space-around; width: 100%; 
+   border-bottom: 1px solid #b68d47; height: 80px; }
+/* 
+La class entete contient : le "titre de la page web"/ Le "menu" / et La "Recherche".
+On utilise Flexbox pour fair le placement : display:flex ;  
+justify-content: space-around; = Les 3 element de l entete se mette sur la meme ligne
+cote a cote en prenant tout l'espace du site web 
+*/
+.title{ width: 150px; height: 100px; }
+/*.title = Titre de la page web 
+margin-top : 12px; = ecarte toi du haut du site de 12px;  */
+
+.choixconseillers{background-color: beige;}
+
+aside{width: 100%; }
+
+h2{}
+p{font-family: }
+
+::-webkit-scrollbar-track {
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar {
+    height: 6px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #3d4852;
+    border-radius: 3px;
+}
+
+@font-face {
+    font-family: 'Source_Sans_Pro';
+    src: url('Source_Sans_Pro/SourceSansPro-ExtraLight.ttf');
+    
+}
+
+
+
+
+.titre2{ text-align: center;
+    color: #505050;
+    font-weight: normal;
+    font-family: 'Source_Sans_Pro';
+}
+
+
+
+
+.section3{width: 100%;
+height: 300px;
+display: flex;justify-content: center;
+}
+
+
+
+.article11{  }
+
+
+
+#section5{ ;
+	margin-top: 50px;
+	height: 345px;
+	display: flex;
+ justify-content: space-around;
+ }
+ .div5{ font-size: 18px;margin-top: -250px;}
+ .section51{width: 560px; height: 600px;margin-top: 12px;}
+ .img5{background-image: url(../Images/map.jpg); width: 100%; height: 330px; margin-top: -50px; opacity: 0.20}
+.h5{text-align: center; color: green;}
+.h52{text-align: center;}
+.section52{ margin-top: 12px;display: flex; justify-content: space-around;
+ flex-wrap: nowrap;) }
+.type1{ width: 200px; text-align: center;}
+.type2{ width: 200px; text-align:center; margin-left: 5px;}
+.type3{ width: 200px;text-align: center; margin-left: 5px;}
+
+
+
+.titreSection7{ margin-top: 10px; text-align: center; }
+.section7{ height: 600px; ;display: flex; justify-content: space-around;background-color: beige }
+.Culture7{ width: 350px; height: 550px;margin-top: 12px;}
+.imgCulture{ width: 350px;height: 250px;}
+.div7{ text-align: center; }

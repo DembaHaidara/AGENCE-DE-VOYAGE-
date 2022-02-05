@@ -1,0 +1,102 @@
+/* Je sais plus -_- */
+
+.liencev {
+    width: 150px; 
+    height: 105px; 
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+/* Récits de Voyage */
+
+}
+
+.sec1 {
+    display: flex;
+    padding: 25px;
+    background-color: beige;
+}
+
+#récit {
+
+    border: 1px solid black;
+    margin: 5px 10px 5px 10px;
+    width: 100%;
+    flex-grow: 1;
+    padding: 10px;
+}
+
+#liensR {
+    width: 65%;
+    margin: 5px 10px 5px 10px;
+    padding: 5px;
+    float: right;
+    background-image: url(Images/livre.jpg);
+    background-repeat: no-repeat;
+}
+
+#liensR ul li a:hover{
+    color: orange;
+}
+
+#texte {
+    margin: 5px 35px 5px 35px;
+}
+
+/* Évenement */
+
+.sec2 {
+    display: flex;
+    padding: 25px;
+    background-color: beige;
+} 
+
+.event {
+    border: 1px solid black;
+    margin: 5px 10px 5px 10px;
+    width: 100%;
+    padding: 10px;
+}
+
+.event img {
+    float: right;
+}
+
+/* Actualités*/
+
+#texte {
+    margin: 5px 35px 5px 35px;
+}
+
+.sec3 {
+    width: 8
+    100%;
+    max-width: 5000px;
+    overflow: hidden;
+}
+
+.sec3 figure {
+    position: relative; 
+    width: 500%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    animation: 10s slidy infinite;
+}
+
+.sec3 figure img { 
+    width: 10%;
+    height: auto;
+}
+
+@keyframes slidy {
+  0% { left: 0%; }
+  20% { left: 0%; }
+  25% { left: -50%; }
+  45% { left: -50%; }
+  50% { left: -100%; }
+  70% { left: -100%; }
+  75% { left: -150%; }
+  95% { left: -150%; }
+  100% { left: 0%; }
+

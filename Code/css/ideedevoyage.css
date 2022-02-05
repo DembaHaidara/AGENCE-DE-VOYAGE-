@@ -1,0 +1,31 @@
+.section4{
+	background-color: beige;
+width: 100%;
+display: flex; 
+justify-content: space-around ;
+
+
+}
+@font-face {
+    font-family: 'Source_Sans_Pro';
+    src: url('Source_Sans_Pro/SourceSansPro-ExtraLight.ttf');
+    
+}
+
+
+.h310{
+    font-family: 'Source_Sans_Pro';
+}
+.hr10{border: none;
+border-bottom: 1px solid #b68d47}
+.article10{ 
+	float: left;
+height: 250px;
+width: 950px;
+ }
+#img10{float: left; padding: 10px }
+#img11{padding: 10px;height: 250px;}
+.right10{margin-left: 360px;margin-right: 10px; }
+.container{margin-left: 10px; text-align: center; border: 1px solid grey;}
+.container11{margin-left: 10px; text-align: center; border: 1px solid grey; width: 500px}
+.right11{margin-right: 10px;margin-left: 10px} 

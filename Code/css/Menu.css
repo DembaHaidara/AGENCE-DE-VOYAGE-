@@ -1,0 +1,125 @@
+li{display: inline-block;margin-left:  10px; font-size: 15px;}
+
+
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+nav a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+nav a:hover{ /* :hover permet de spécifier l'apparence d'un élément au moment où l'utilisateur le survole avec le pointeur, sans nécessairement l'activer.*/
+    color: orange;
+    border-bottom: 2px solid gold;
+    font-size: 15px;
+}
+.sous{
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: white;
+    position: absolute;
+    width: 50%;
+    overflow: scroll;
+    height: 145px;
+    z-index: 1000;
+
+
+}
+nav > ul li:hover .sous{
+display: block;
+  
+
+}
+
+/*.flexli{display: flex; border: 1px solid green; height: 120px;margin-left: -35px; }*/
+/*.flexli2{display: flex; border: 1px solid green; height: 120px; margin-left: -35px;}
+/*.flexli3{display: flex; border: 1px solid green; height: 120px; margin-left: -35px;}*/
+
+@font-face{ 
+ font-family: 'Lexend Exa';
+   src: url('LexendExa_Regular.ttf') format('ttf');
+        }
+
+.sous li{
+    float: none;
+    width: 20%;
+
+
+}
+p{ font-family: Lexend Exa;}
+.sous a{
+    padding: 10px;
+    border-bottom: none;
+
+}
+
+.sous a:hover{
+
+    border-bottom: none;
+    /*background-color: rgba(200,200,200,0.1);*/
+}
+.deroulant > a::after{
+    content:" ▼";
+    font-size: 12px;
+    color: #b68d47;
+
+}
+.ImgDeroulant{ width: 100px; height: 70px; border-radius: 10px;
+  margin-top: 10px; text-align: center;}
+.lienDeroulant{margin-top: 5px; text-align: center; }
+
+
+nav {/*border: 1px solid;*/ 
+    width: 900px; }
+.ecarts{/*border: 1px solid red;*/ width: 600px;
+  font-size: 12px;font-family: sans-serif;}
+
+.deroulant{ /*border: 1px solid blue;*/ }
+
+.sous{ border: 1px solid green; height: 400px;}
+
+.liSous{} 
+
+
+
+
+
+.sous1{
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: white;
+    position: absolute;
+    width: 50%;
+    overflow: scroll;
+    height: 160px;
+    z-index: 1000;
+
+
+
+}
+nav > ul li:hover .sous1{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.sous1 li{
+    float: none;
+    width: 20%;
+
+}
+.sous1 a{
+    padding: 10px;
+    border-bottom: none;
+
+}
+
+.sous1 a:hover{
+
+    border-bottom: none;
+    /*background-color: rgba(200,200,200,0.1);*/
+}

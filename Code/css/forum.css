@@ -1,0 +1,66 @@
+
+body{background-color: beige;}
+
+.sectionF1{width: 100%; display: flex; 
+	justify-content: space-around; padding: 5px;
+}
+.articleF1{border: 1px solid grey; width: 200px;}
+.articleF2{ width: 100%; }
+.divF2{border: 1px solid grey;margin: 15px;background-color: white}
+.fivF3{border: 1px solid grey; width: 100%;
+	display: flex;
+text-align: center;}
+#span0{font-family: sans-serif;     
+	margin-left: 5px;
+    margin-right: 5px;}
+#span1{float: right;}
+.paraF1{font-size: 16px;font-family: cursive;}
+.paraF2{font-size: 12px; font-family: cursive;}
+
+.fiv30{border-right: 1px solid;width: 100%;height: 80px; background-color: beige}
+#fivF31{;}
+.titleF4{ width: 100%;margin-bottom: 15px; }
+.titleF4 h3{margin-left: 15px; font-family: sans-serif;}
+.divF4{ display: flex; 
+margin-right: 15px;
+    margin-left: 15px;}
+.fiv4{ width: 100%; border: 1px solid grey;
+	background-color: white;
+display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;}
+.iv4{width: 190px; height: 150px; border-radius: 10px;}
+.v4{width: 100%; height: 100%;margin-top: 10px;
+    border-radius: 10px;}
+.p4{font-family: cursive;}
+.divF5{border: 1px solid gray; margin: 15px; display: flex; height: 650px;}
+
+.fiv5{width: 100%; 
+    align-items: center; border: 1px solid red}
+#fiv51{ flex: 1;display: flex; flex-flow: column; }
+#fiv52{ display: flex; flex-flow: column; border:1px solid grey;align-items: normal;}
+.fiv51{width: 300px;text-align: center;}
+.iv51{ border: 1px solid ; width:200px;margin-top: 15px;padding: 5px;
+    border-radius: 15px;}
+.iv52{ border-top: 1px solid grey;
+	border-bottom:1px solid grey;
+	justify-content: space-between;
+	padding: 5px;
+}
+#v53{}
+#v52{margin-right: 15px;}
+#iv521{background-color: beige;}
+#iv522{flex: 1; background-color: white; display: flow-root;}
+#iv523{background-color: beige;}
+#form{width: 100%}
+#textarea{ 	width: 90%;height: 50px; }
+#vu1{font-size: 10px; color: grey} 
+
+
+.articleF3{border: 1px solid gray;width: 300px; height: 600px;
+display: flex;flex-flow: column;}
+.divF3{width: 150px; height: 150px;border: 1px solid;margin-left: 25px; }
+#imgF3{width: 100%; height: 100%;}
+.liF3{display: block;}
+#h3F3{text-align: center;}

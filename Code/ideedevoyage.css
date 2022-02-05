@@ -1,0 +1,23 @@
+.section4{
+	background-color: beige;
+width: 100%;
+display: flex; 
+justify-content: space-around ;
+
+
+}
+.h310{font-family: algerian;
+}
+.hr10{border: none;
+border-bottom: 1px solid #b68d47}
+.article10{ 
+	float: left;
+height: 250px;
+width: 950px;
+ }
+#img10{float: left; padding: 10px }
+#img11{padding: 10px;}
+.right10{margin-left: 360px;margin-right: 10px; }
+.container{margin-left: 10px; text-align: center; border: 1px solid grey;}
+.container11{margin-left: 10px; text-align: center; border: 1px solid grey; width: 500px}
+.right11{margin-right: 10px;margin-left: 10px} 

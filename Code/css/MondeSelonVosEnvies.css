@@ -1,0 +1,48 @@
+::-webkit-scrollbar-track {
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar {
+    height: 6px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #3d4852;
+    border-radius: 3px;
+}
+
+
+
+.div1{ display: flex;
+	width: 100%;
+	justify-content: center;
+ }
+.section1{
+
+display: flex;
+height: 190Px; 
+width: 815px;
+overflow-x:scroll; 
+
+}
+
+
+
+
+
+
+.article1{margin-left: 15px;
+
+}
+.article2{}
+.article3{;}
+
+
+.article4{}
+.article1,.article2,.article3,.article4,.article5,.article41,.article42{margin-left: 10px; }
+#img1,#img2,#img3,#img4,#img5,#img6{width: 192px;
+    height: 120px;
+ border-radius:10px;}
+
+.titreArticle{text-align: center;font-family: sans-serif;}

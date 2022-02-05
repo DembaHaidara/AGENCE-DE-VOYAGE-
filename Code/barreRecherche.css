@@ -1,0 +1,54 @@
+form{margin-top: 18px;}
+/* form = formulaire = l'espace recherche 
+paadding 12 px; = ecarte toi de ton propre block de 12px;
+margin-top : 12px; = ecarte toi du haut du site de 12px;
+ */
+#formulaire {
+    width: 208px;
+    height: 29px;
+    border-bottom: 1px solid grey;
+}
+input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+input:focus:-moz-placeholder {
+    color: transparent;
+}
+input:focus::-moz-placeholder {
+    color: transparent;
+}
+#formulaire input {
+    outline: none;
+}
+#formulaire input[type="text"] {
+    background: transparent;
+    margin: 3px 0px 0px 20px;
+    padding: 5px 0px 5px 0px;
+    border-width: 0px;
+    font-family: « Arial Narrow », Arial, sans-serif;
+    font-size: 12px;
+    color: #828282;
+    width: 70%;
+    display: inline-table;
+    vertical-align: top;
+}
+#button-submit {
+    background: url(http://4.bp.blogspot.com/-OcDQ6Z9ojlQ/VD1KnwJjFOI/AAAAAAAAAgs/cu_pKN6bpL8/s1600/magnifier.png) no-repeat;
+    border-width: 0px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 4px;
+    width: 21px;
+    height: 22px;
+}
+#button-submit:hover {
+    background: url(http://2.bp.blogspot.com/-4-xFDFGKJrA/VD1Kn04f9TI/AAAAAAAAAgw/2ta84QY1x9A/s1600/magnifier-hover.png) no-repeat;
+}
+#button-submit:active {
+    background: url(http://2.bp.blogspot.com/-4-xFDFGKJrA/VD1Kn04f9TI/AAAAAAAAAgw/2ta84QY1x9A/s1600/magnifier-hover.png) no-repeat;
+    outline: none;
+}
+#button-submit::-moz-focus-inner {
+    border: 0;
+}
+

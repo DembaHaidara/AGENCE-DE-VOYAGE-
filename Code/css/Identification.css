@@ -1,0 +1,9 @@
+.sectionESP1{width: 100%; display: flex;justify-content: center;}
+.container{border: 1px solid red;display: flex; justify-content: space-around;
+background-image: url("../Images/Identifiction/img1.jpg");height: 565px;width: 736px;
+display: flex;justify-content: center;align-items: center}
+.articleESP2{border: 1px solid; height: 200px; width: 200px;
+;background-color: #3d4852;opacity: 0.50}
+form{text-align: center;opacity: none}
+label{display: block;opacity: none}
+body{background-color: #3d4852;opacity: 0.50}
